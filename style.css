@@ -178,6 +178,10 @@ h3 {
 /* Media Query: iPhone (Vertical) */
 @media screen and (max-width: 376px) {
 
+  body:focus {
+    outline: none !important;
+  }
+
   .player-container {
     width: 95vw;
   }
@@ -197,5 +201,18 @@ h3 {
   .player-controls {
     top: -10px;
     left: 100px;
+  }
+
+  .volume-btn {
+    left: -80px;
+  }
+
+  .volume-slider {
+    left: -90px;
+    width: 80px;
+  }
+  
+  .hide-volume-slider {
+    width: 0px;
   }
 }
