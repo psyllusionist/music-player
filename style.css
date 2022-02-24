@@ -159,6 +159,7 @@ h3 {
 
 .hide-volume-btn {
   font-size: 0px;
+  background: #d3d3d3;
   transform: translateY(10px);
 }
 
